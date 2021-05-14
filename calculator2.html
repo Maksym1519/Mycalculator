@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator2</title>
+    <link rel='stylesheet' href='calculator2.css'>
+</head>
+<body>
+    <div class="calculator">
+        <div class='screen'>
+            <form type='text' name='form'>
+<input type='text' name='textview' readonly class='show-result'>
+            </form>
+        </div>
+        <div class="buttons-wrapper">
+        <div class='buttons'>
+<div class="item-clean" onclick="clean()">C</div>
+<div class="item-back" onclick = "backspace()">&larr;</div>
+<div class="item" onclick="addNumber('+')">+</div>
+<div class="item" onclick="addNumber('-')">-</div>
+<div class="item" onclick="addNumber('*')">&times;</div>
+<div class="item" onclick="addNumber('/')">&divide;</div>
+<div class="item" onclick="addNumber('7')">7</div>
+<div class="item" onclick="addNumber('8')">8</div>
+<div class="item" onclick="addNumber('9')">9</div>
+<div class="item" onclick="addNumber('(')">(</div>
+<div class="item" onclick="addNumber('4')">4</div>
+<div class="item" onclick="addNumber('5')">5</div>
+<div class="item" onclick="addNumber('6')">6</div>
+<div class="item" onclick="addNumber(')')">)</div>
+<div class="item" onclick="addNumber('1')">1</div>
+<div class="item" onclick="addNumber('2')">2</div>
+<div class="item" onclick="addNumber('3')">3</div>
+<div class="item-equel" onclick="even()">=</div>
+<div class="item-zero" onclick="addNumber('0')">0</div>
+<div class="item" onclick="addNumber('.')">.</div>
+
+        </div>
+        </div>
+    
+    </div>
+    <script src='calculator2.js'></script>
+</body>
+
+</html>
